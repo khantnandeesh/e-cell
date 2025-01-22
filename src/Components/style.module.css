@@ -1,0 +1,24 @@
+.first,
+.second {
+    animation-name: anime;
+    animation-duration: 5s; /* Total duration of animation (2s movement + 1s gap) */
+    animation-iteration-count: infinite;
+    animation-timing-function:linear;
+    animation-direction:alternate;
+    animation-delay: 0s; /* No delay before starting the animation */
+}
+
+@keyframes anime {
+    0%{
+        transform: translate(0, 0);
+    }
+    25% {
+        transform: translate(0, 0);
+    }
+    50% {
+        transform: translate(-100%, 0); /* Move left */
+    }
+    100% {
+        transform: translate(-100%, 0); /* Return to original position */
+    }
+}

@@ -9,6 +9,9 @@ export default {
       boxShadow: {
         custom: '0px 0px 4px 4px rgba(0, 0, 0, 0.25)', // Spread value and transparent color
       },
+      fontFamily: {
+        sqfont: ['SQFONT', 'sans-serif'], // Add your custom font here
+      },
     },
   },
   plugins: [],

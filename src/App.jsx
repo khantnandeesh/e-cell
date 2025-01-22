@@ -1,17 +1,20 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+
+
 import './App.css'
-import {Nav} from './Components/nav'
-import Home from './Components/Main'
+import { Route, Routes } from 'react-router-dom'
+import Page1 from './Components/Page1'
+import Page2 from './Components/Page2'
 function App() {
  
 
   return (
-   <div className='m-0 p-0 h-screen w-screen '>
-      <Nav></Nav>
-      <Home></Home>
-    </div>
+    <Routes>
+      <Route path='/' element={<Page1/>}>      </Route>
+      <Route path='/about' element={<Page2/>}>  </Route>
+       
+
+    </Routes>
   )
 }
 
