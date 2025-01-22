@@ -22,7 +22,7 @@ export const Nav = () => {
                 <div className="` navigation  absolute top-[18.57vw] left-1/2 -translate-x-1/2  flex flex-col text-[4.58vw] justify-center items-center  transition-all duration-1000  ease-out delay-75">
                     <div onClick={() => {navigate('/about'); }} className='cursor-pointer hover:font-normal mb-[1vw] transition-all duration-1000  ease-out delay-75"'>Home</div>
                     <div className='mb-[1vw] cursor-pointer hover:font-normal'>Grid</div>
-                    <div  className='hover:font-normal cursor-pointer'  onClick={() => {window.location.href = 'https://www.linkedin.com';  }}>LinkedIn</div>
+                    <div  className='hover:font-normal cursor-pointer'  onClick={() => {window.location.href = 'https://www.linkedin.com/in/nandeesh-khant-1ab330286/';  }}>LinkedIn</div>
                 </div>
         </div>
 
@@ -32,7 +32,7 @@ export const Nav = () => {
         {/* main larger screen visible only */}
         <div  onClick={() => {navigate('/about'); }} className='hidden cursor-pointer hover:font-normal md:block lg:block' >Home</div>
         <div className='hidden cursor-pointer md:block hover:font-normal  lg:block'>Grid</div>
-        <div  onClick={() => {window.location.href = 'https://www.linkedin.com'; }} className='hover:font-normal hidden cursor-pointer md:block lg:block'>LinkedIn</div>
+        <div  onClick={() => {window.location.href = 'https://www.linkedin.com/in/nandeesh-khant-1ab330286/'; }} className='hover:font-normal hidden cursor-pointer md:block lg:block'>LinkedIn</div>
 
     </div>
   )

@@ -87,8 +87,8 @@ function Page2() {
             </h2>
           <div className="w-full flex-wrap mx-auto md:flex-nowrap  flex justify-between  md:justify-around items-center ">
                 <div className="space-y-6   md:h-full w-[80%] md:w-[40%] flex flex-col justify-start md:justify-around  mx-auto  md:items-center">
-                <p className={`text-md md:text-2xl  tracking-widest leading-[4.6vw] md:leading-[1.6vw] text-center sqfont`}>
-                    Welcome to my Squid Game-inspired portfolio! I'm passionate about creating unique digital experiences
+                <p className={`text-md md:text-2xl  tracking-widest leading-[5vw] md:leading-[2.6vw] text-center sqfont`}>
+                    Welcome to my Squid Game-inspired portfolio! I'm Khant Nandeesh (20233160) , passionate about creating unique digital experiences
                     that push the boundaries of web development. With a keen eye for detail and a love for innovative solutions,
                     I strive to create impactful and memorable digital experiences.
                 </p>
