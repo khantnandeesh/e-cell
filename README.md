@@ -1,8 +1,58 @@
-# React + Vite
+# E-Cell MNNIT
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to the E-Cell recruitment assignment  GitHub repository! 
 
-Currently, two official plugins are available:
+## About E-Cell MNNIT
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Established in September 2014, the Entrepreneurship Cell (E-Cell) at MNNIT Allahabad aims to foster entrepreneurial skills among students.
+
+## Project Overview
+
+This repository contains the source code and resources for the e-cell assignment. 
+
+
+
+## Technologies Used
+
+- **Frontend**: HTML, CSS, JavaScript, Tailwind css
+
+
+
+## Getting Started
+
+To set up the project locally:
+
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/khantnandeesh/e-cell.git
+   ```
+
+2. **Navigate to the project directory**:
+   ```bash
+   cd e-cell
+   ```
+
+3. **Install dependencies**:
+   ```bash
+   npm install
+   ```
+
+4. **Start the development server**:
+   ```bash
+   npm start
+   ```
+
+5. **Open your browser** and visit `http://localhost:5173` to view the website.
+
+
+
+## Contact Information
+
+For any queries or suggestions, please contact:
+
+- **Name**: Nandeesh Khant
+- **Email**: nandeesh.khant@gmail.com
+
+---
+
+*This README is part of the recruitment assignment for the Entrepreneurship Cell (E-Cell) at MNNIT Allahabad.* 
