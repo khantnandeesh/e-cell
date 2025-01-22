@@ -79,7 +79,7 @@ function Page2() {
       </section>
 
       {/* About Section */}
-      <section className=" h-screen w-screen  py-20 bg-gradient-to-r from-pink-900 to-black flex flex-col justify-start md:justify-center">
+      <section className="min-h-[100vh] md:h-screen w-screen  py-20 bg-gradient-to-r from-pink-900 to-black flex flex-col justify-start md:justify-center">
         <div className="container  mx-auto px-4 flex flex-col justify-start   md:justify-center">
             <h2 className="text-[5vw] font-bold mb-12 text-center"
                 style={{ fontFamily: "'Nunito Sans'" }}>
