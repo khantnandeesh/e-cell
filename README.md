@@ -51,7 +51,7 @@ To set up the project locally:
 For any queries or suggestions, please contact:
 
 - **Name**: Nandeesh Khant
-- **Email**: nandeesh.khant@gmail.com
+- **Email**: khantnandeesh3205@gmail.com
 
 ---
 
