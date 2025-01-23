@@ -36,7 +36,7 @@ const Home = () => {
                             setHistory(() => history.indexOf(0) == -1 ? [...history, 0] : history);
                             setColor(arr => arr.map((obj, i) => (i == 0 ? true : obj)));
                         }}
-                        className={`h-[16.52vw] w-[16.52vw] lg:h-[6.94vw] rounded-3xl md:w-[11.69vw] md:h-[11.768vw] lg:w-[6.94vw] ${currColor[0] ? 'bg-[#7A0000]' : 'bg-[#00477A]'} transition-all ease-in-out duration-[400ms] delay-[20ms]`}
+                        className={`h-[16.52vw] w-[16.52vw] lg:h-[6.94vw] rounded-xl md:w-[11.69vw] md:h-[11.768vw] lg:w-[6.94vw] ${currColor[0] ? 'bg-[#7A0000]' : 'bg-[#00477A]'} transition-all ease-in-out duration-[400ms] delay-[20ms]`}
                         ></div>
 
                         <div 
@@ -44,7 +44,7 @@ const Home = () => {
                             setHistory(() => history.indexOf(1) == -1 ? [...history, 1] : history);
                             setColor(arr => arr.map((obj, i) => (i == 1 ? true : obj)));
                         }}
-                        className={`h-[16.52vw] w-[16.52vw] lg:h-[6.94vw] rounded-3xl md:w-[11.69vw] md:h-[11.768vw] lg:w-[6.94vw] ${currColor[1] ? 'bg-[#7A0000]' : 'bg-[#00477A]'} transition-all ease-in-out duration-[400ms] delay-[100ms]`}
+                        className={`h-[16.52vw] w-[16.52vw] lg:h-[6.94vw] rounded-xl md:w-[11.69vw] md:h-[11.768vw] lg:w-[6.94vw] ${currColor[1] ? 'bg-[#7A0000]' : 'bg-[#00477A]'} transition-all ease-in-out duration-[400ms] delay-[100ms]`}
                         ></div>
 
                         <div 
@@ -52,7 +52,7 @@ const Home = () => {
                             setHistory(() => history.indexOf(2) == -1 ? [...history, 2] : history);
                             setColor(arr => arr.map((obj, i) => (i == 2 ? true : obj)));
                         }}
-                        className={`h-[16.52vw] w-[16.52vw] lg:h-[6.94vw] rounded-3xl md:w-[11.69vw] md:h-[11.768vw] lg:w-[6.94vw] ${currColor[2] ? 'bg-[#7A0000]' : 'bg-[#00477A]'} transition-all ease-in-out duration-[400ms] delay-[100ms]`}
+                        className={`h-[16.52vw] w-[16.52vw] lg:h-[6.94vw] rounded-xl md:w-[11.69vw] md:h-[11.768vw] lg:w-[6.94vw] ${currColor[2] ? 'bg-[#7A0000]' : 'bg-[#00477A]'} transition-all ease-in-out duration-[400ms] delay-[100ms]`}
                         ></div>
 
                         <div 
@@ -60,7 +60,7 @@ const Home = () => {
                             setHistory(() => history.indexOf(3) == -1 ? [...history, 3] : history);
                             setColor(arr => arr.map((obj, i) => (i == 3 ? true : obj)));
                         }}
-                        className={`h-[16.52vw] w-[16.52vw] lg:h-[6.94vw] rounded-3xl md:w-[11.69vw] md:h-[11.768vw] lg:w-[6.94vw] ${currColor[3] ? 'bg-[#7A0000]' : 'bg-[#00477A]'} transition-all ease-in-out duration-[400ms] delay-[100ms]`}
+                        className={`h-[16.52vw] w-[16.52vw] lg:h-[6.94vw] rounded-xl md:w-[11.69vw] md:h-[11.768vw] lg:w-[6.94vw] ${currColor[3] ? 'bg-[#7A0000]' : 'bg-[#00477A]'} transition-all ease-in-out duration-[400ms] delay-[100ms]`}
                         ></div>
 
                         <div 
@@ -68,7 +68,7 @@ const Home = () => {
                             setHistory(() => history.indexOf(4) == -1 ? [...history, 4] : history);
                             setColor(arr => arr.map((obj, i) => (i == 4 ? true : obj)));
                         }}
-                        className={`h-[16.52vw] w-[16.52vw] lg:h-[6.94vw] rounded-3xl md:w-[11.69vw] md:h-[11.768vw] lg:w-[6.94vw] ${currColor[4] ? 'bg-[#7A0000]' : 'bg-[#00477A]'} transition-all ease-in-out duration-[400ms] delay-[100ms]`}
+                        className={`h-[16.52vw] w-[16.52vw] lg:h-[6.94vw] rounded-xl md:w-[11.69vw] md:h-[11.768vw] lg:w-[6.94vw] ${currColor[4] ? 'bg-[#7A0000]' : 'bg-[#00477A]'} transition-all ease-in-out duration-[400ms] delay-[100ms]`}
                         ></div>
 
                         <div 
@@ -76,7 +76,7 @@ const Home = () => {
                             setHistory(() => history.indexOf(5) == -1 ? [...history, 5] : history);
                             setColor(arr => arr.map((obj, i) => (i == 5 ? true : obj)));
                         }}
-                        className={`h-[16.52vw] w-[16.52vw] lg:h-[6.94vw] rounded-3xl md:w-[11.69vw] md:h-[11.768vw] lg:w-[6.94vw] ${currColor[5] ? 'bg-[#7A0000]' : 'bg-[#00477A]'} transition-all ease-in-out duration-[400ms] delay-[100ms]`}
+                        className={`h-[16.52vw] w-[16.52vw] lg:h-[6.94vw] rounded-xl md:w-[11.69vw] md:h-[11.768vw] lg:w-[6.94vw] ${currColor[5] ? 'bg-[#7A0000]' : 'bg-[#00477A]'} transition-all ease-in-out duration-[400ms] delay-[100ms]`}
                         ></div>
 
                         <div 
@@ -84,7 +84,7 @@ const Home = () => {
                             setHistory(() => history.indexOf(6) == -1 ? [...history, 6] : history);
                             setColor(arr => arr.map((obj, i) => (i == 6 ? true : obj)));
                         }}
-                        className={`h-[16.52vw] w-[16.52vw] lg:h-[6.94vw] rounded-3xl md:w-[11.69vw] md:h-[11.768vw] lg:w-[6.94vw] ${currColor[6] ? 'bg-[#7A0000]' : 'bg-[#00477A]'} transition-all ease-in-out duration-[400ms] delay-[100ms]`}
+                        className={`h-[16.52vw] w-[16.52vw] lg:h-[6.94vw] rounded-xl md:w-[11.69vw] md:h-[11.768vw] lg:w-[6.94vw] ${currColor[6] ? 'bg-[#7A0000]' : 'bg-[#00477A]'} transition-all ease-in-out duration-[400ms] delay-[100ms]`}
                         ></div>
 
                         <div 
@@ -92,10 +92,10 @@ const Home = () => {
                             setHistory(() => history.indexOf(7) == -1 ? [...history, 7] : history);
                             setColor(arr => arr.map((obj, i) => (i == 7 ? true : obj)));
                         }}
-                        className={`h-[16.52vw] w-[16.52vw] lg:h-[6.94vw] rounded-3xl md:w-[11.69vw] md:h-[11.768vw] lg:w-[6.94vw] ${currColor[7] ? 'bg-[#7A0000]' : 'bg-[#00477A]'} transition-all ease-in-out duration-[400ms] delay-[100ms]`}
+                        className={`h-[16.52vw] w-[16.52vw] lg:h-[6.94vw] rounded-xl md:w-[11.69vw] md:h-[11.768vw] lg:w-[6.94vw] ${currColor[7] ? 'bg-[#7A0000]' : 'bg-[#00477A]'} transition-all ease-in-out duration-[400ms] delay-[100ms]`}
                         ></div>
 
-                <div onClick={()=>{reset();}}    className='h-[16.52vw] w-[16.52vw] lg:h-[6.94vw] rounded-3xl md:w-[11.69vw] md:h-[11.768vw] lg:w-[6.94vw] bg-[#7A0000]'></div>
+                <div onClick={()=>{reset();}}    className='h-[16.52vw] w-[16.52vw] lg:h-[6.94vw] rounded-xl md:w-[11.69vw] md:h-[11.768vw] lg:w-[6.94vw] bg-[#7A0000]'></div>
             </div>
         </div>
       )
